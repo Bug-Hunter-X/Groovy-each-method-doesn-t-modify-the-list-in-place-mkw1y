@@ -1,0 +1,3 @@
+# Groovy Each Method Side Effect
+
+This example demonstrates a common Groovy gotcha involving the `each` method and its side effects (or lack thereof). The provided `myMethod` attempts to modify a list of strings by converting them to uppercase using the `each` method. However, the original list remains unchanged because `each` doesn't modify the list itself; it only iterates through it.  The solution demonstrates how to properly modify the list using an alternative approach.
